@@ -1,0 +1,9 @@
+name: rationalization
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+    - transformers==2.8.0
+    - h5py

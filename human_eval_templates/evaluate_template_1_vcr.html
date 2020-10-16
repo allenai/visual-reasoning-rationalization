@@ -1,0 +1,1649 @@
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<section class="container" id="Survey">
+    <div class="row" id="workContent">
+        <div class="col-xl-12">
+
+            <!-- ACCORDION HEADER START -->
+            <div class="accordion col-12" id="hitinfo">
+                <!-- INSTRUCTIONS START -->
+                <div class="card">
+                    <div class="card-header" id="instructionsHeading">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#instructions" aria-expanded="true"
+                                    aria-controls="instructions">
+                                Instructions (click to expand/collapse)
+                            </button>
+                        </h5>
+                    </div>
+                    <div class="collapse show" id="instructions"
+                         aria-labelledby="instructionsHeading"
+                         data-parent="#hitinfo">
+                        <div class="card-body">
+                            <h5><b>Overview</b></h5>
+                            <p>Thanks for participating in this HIT!</p>
+                            <p>In this task, you will be asked to <span class="emph"> judge the quality of a rationale</span>
+                                on different criteria.</p>
+                            <p><i>A rationale is a justification made for certain decisions.</i></p>
+                            <p>Each HIT will contain several questions:</p>
+
+                            <h5><b>Guidelines</b></h5>
+                            <ol>
+
+                                <li>First, you will be shown a (i) <b>Question</b>, (ii) an <b>Answer</b>
+                                    (presumed-correct) and (iii) a <b>Rationale</b>. You'll have to
+                                    judge if the rationale
+                                    supports the answer.
+                                </li>
+                                <li>Next, you will be shown the same <b>question</b>, <b>answer</b>,
+                                    <b>rationale</b>,
+                                    and an <u>associated image</u>. You'll have to judge if the
+                                    rationale supports the answer, in the context of the given
+                                    image.
+                                </li>
+                                <li>You'll judge the grammaticality of the rationale. Please
+                                    ignore the absence of periods, punctuation and case.
+                                </li>
+                                <li>Next, you'll have to judge if the rationale
+                                    mentions <b>persons, objects, locations or actions</b> <span
+                                            class="problem">unrelated</span> to the
+                                    image -- i.e. things that are not directly visible and are
+                                    unlikely to be present to the scene in the image.
+                                </li>
+                                <li>Finally, you'll pick the NOUNS, NOUN PHRASES and VERBS from the
+                                    rationale that are <span class="problem">unrelated</span> to the
+                                    image.
+                                </li>
+                                <!--                            <li>Next, you'll be shown another rationale, and ask to compare it with-->
+                                <!--                                the first rationale. You'll have to judge if the <b> first rationale-->
+                                <!--                                    is a paraphrase of the second rationale </b> .-->
+                                <!--                            </li>-->
+                                <!--                            <li>Finally, you will be asked miscellaneous questions:-->
+                                <!--                                <ol type="a">-->
+                                <!--                                    <li> Is the given "situation" relevant to the given image?</li>-->
+                                <!--                                    <li> Are the objects relevant to the given image?</li>-->
+                                <!--                                    <li> Was the likely gender used correctly in the rationale?</li>-->
+                                <!--                                </ol>-->
+                                <!--                            </li>-->
+                            </ol>
+
+                            <h5><b>Tips</b></h5>
+                            <ul>
+                                <li>Please <b> ignore minor grammatical errors </b> -- e.g. case
+                                    sensitivity, missing periods etc.
+                                </li>
+                                <li>Please <b> ignore gender mismatch</b> -- e.g. if the
+                                    image shows a male, but the rationale mentions female.
+                                </li>
+                                <li><span class="problem2">Please ignore inconsistencies between person and object detections in the <strong>QUESTION / ANSWER</strong> and those in the image -- e.g. if a pile of papers is labeled as a laptop in the image.</span>
+                                    Do not ignore such inconsistencies for the rationale.
+                                </li>
+                                <li><span class="problem2">When judging the rationale, think about whether it is plausible.</span>
+                                </li>
+                                <li><span class="problem2">If the rationale just repeats an answer, it is not considered as a valid justification for the answer.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- INSTRUCTIONS END -->
+
+                <!-- EXAMPLES START -->
+                <div class="card">
+                    <div class="card-header" id="examplesHeading">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#examples" aria-expanded="true"
+                                    aria-controls="examples">
+                                Examples (click to expand/collapse)
+                            </button>
+                        </h5>
+                    </div>
+                    <div class="collapse" id="examples" aria-labelledby="examplesHeading"
+                         data-parent="#hitinfo">
+                        <div class="card-body">
+
+                            <!--EX-->
+                            <div class="questionrow">
+                                <h4>Example 1</h4>
+                                <br/><br/>
+                                <div class="row">
+                                    <div class="panel">
+                                        <div class="prompt pl-2 col-lg-12">
+                                            <h5><b> Question:</b> Do 1 and 2 drink coffee?</h5>
+                                            <h5><b> Answer:</b> Yes, they both drink coffee. </h5>
+                                            <h5><b> Rationale:</b> They both have coffee cups in
+                                                front of
+                                                them.
+                                            </h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="prompt pl-4 col-lg-8">
+                                        1. <span class="problem"> [No image!]</span> Does the rationale
+                                        support
+                                        the answer?
+                                    </div>
+
+                                    <div class="pl-4 col-lg-8 choicebox">
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-success">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q1"
+                                                       value="yes" checked>
+                                                Yes
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-primary">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q1"
+                                                       value="w_yes" disabled>
+                                                Weak Yes
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-warning">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q1"
+                                                       value="w_no" disabled>
+                                                Weak No
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-danger">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q1"
+                                                       value="no" disabled>
+                                                No
+                                            </label>
+                                        </div>
+
+                                        <div class="pl-2">
+                                            <span class="emph-expl">Explanation:</span> If two
+                                            people have mugs in front of them, it is likely that
+                                            they are having coffee. Thus, even without looking at
+                                            the image, the rationale explains the answer.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row" id="ex-img">
+
+                                    <h5><br>Now, you should refer to the image to answer the rest of
+                                        the questions.<br>&nbsp;
+                                    </h5>
+
+                                    <div class="col-lg-8">
+                                        <img class="img-thumbnail"
+                                             src="https://storage.googleapis.com/ai2-mosaic/public/rationalegen/ex1.png">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="panel">
+                                        <div class="prompt pl-2">
+                                            <h5><b> Question:</b> Do 1 and 2 drink coffee?</h5>
+                                            <h5><b> Answer:</b> Yes, they both drink coffee. </h5>
+                                            <h5><b> Rationale:</b> They both have coffee cups in
+                                                front of
+                                                them.
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row panel">
+                                    <div class="prompt pl-4 col-lg-8">
+                                        2. <span class="emph"> [With image!]</span> Does the
+                                        rationale
+                                        support the answer?
+                                    </div>
+
+                                    <div class="pl-4 col-lg-8 choicebox">
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-success">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q2"
+                                                       value="yes" checked>
+                                                Yes
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-primary">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q2"
+                                                       value="w_yes" disabled>
+                                                Weak Yes
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-warning">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q2"
+                                                       value="w_no" disabled>
+                                                Weak No
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-danger">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q2"
+                                                       value="no" disabled>
+                                                No
+                                            </label>
+                                        </div>
+                                        <div class="pl-0">
+                                            <span class="emph-expl">Explanation:</span> In the
+                                            image, there are mugs on the table between the two
+                                            people. It is very likely that they are coffee mugs and
+                                            that the people are having coffee.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel row">
+                                    <div class="prompt pl-4 col-lg-8">
+                                        3. Is the rationale grammatically correct?
+                                    </div>
+
+                                    <div class="pl-4 col-lg-8 choicebox">
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-success">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q3" value="yes" checked>
+                                                Yes
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-danger">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q3" value="no" disabled>
+                                                No
+                                            </label>
+                                        </div>
+                                        <div class="pl-0">
+                                            <span class="emph-expl">Explanation:</span> The
+                                            rationale is grammatical correct.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel row">
+                                    <div class="prompt pl-4 col-lg-8">
+                                        4. Does the rationale mention a person, object, location,
+                                        action etc. that is unrelated to the image?
+                                    </div>
+                                    <div class="pl-4 col-lg-8 choicebox">
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                                <input class="form-check-input" type="checkbox"
+                                                       name="q4" value="yes" disabled>
+                                                Rationale mentions something <span class="problem">completely unrelated</span>
+                                                to the image.
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                                <input class="form-check-input" type="checkbox"
+                                                       name="q4" value="w_yes" disabled>
+                                                Rationale mentions something <span class="problem2">slightly unrelated</span>
+                                                to the image (e.g. details like colors).
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                                <input class="form-check-input" type="checkbox"
+                                                       name="q4" value="w_no" disabled>
+                                                Rationale mentions something <span class="problem3">somewhat unrelated</span>
+                                                to the image (e.g. [FIND]).
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                                <input class="form-check-input" type="checkbox"
+                                                       name="q4" value="no" checked disabled>
+                                                Rationale is on point.
+                                            </label>
+                                        </div>
+                                        <div class="pl-0">
+                                            <span class="emph-expl">Explanation:</span> The
+                                            rationale refers to objects that are visible in the
+                                            image.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel row">
+                                    <div class="prompt pl-4 col-lg-8">
+                                        5. Select all nouns that are <span
+                                            class="problem">unrelated</span> to the image.
+                                    </div>
+                                    <div class="pl-4 col-lg-8 choicebox">
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                                <input class="form-check-input" type="checkbox"
+                                                       name="q5" value="yes" disabled>
+                                                cups
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                                <input class="form-check-input" type="checkbox"
+                                                       name="q5" value="w_yes" disabled>
+                                                front
+                                            </label>
+                                        </div>
+                                        <div class="pl-0">
+                                            <span class="emph-expl">Explanation:</span> "cups" are
+                                            clearly relevant, and the location of the cups "front"
+                                            is relevant as well.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel row">
+                                    <div class="prompt pl-4 col-lg-8">
+                                        6. Select all noun phrases that are <span class="problem">unrelated</span>
+                                        to the image.
+                                    </div>
+                                    <div class="pl-4 col-lg-8 choicebox">
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                                <input class="form-check-input" type="checkbox"
+                                                       name="q6" value="yes">
+                                                coffee cups
+                                            </label>
+                                        </div>
+                                        <div class="pl-0">
+                                            <span class="emph-expl">Explanation:</span> "Coffee
+                                            cups" are visible in the image and directly related to
+                                            the question about people drinking coffee.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel row">
+                                    <div class="prompt pl-4 col-lg-8">
+                                        7. Select all verbs that are <span
+                                            class="problem">unrelated</span> to the image.
+                                    </div>
+                                    <div class="pl-4 col-lg-8 choicebox">
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                                <input class="form-check-input" type="checkbox"
+                                                       name="q7" value="yes" disabled>
+                                                -
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="questionrow">
+                                <h4>Example 2</h4>
+                                <br/><br/>
+                                <div class="row">
+                                    <div class="panel">
+                                        <div class="prompt pl-2">
+                                            <h5><b> Question:</b> Why are 1 and 2 holding the hands
+                                                of 3?</h5>
+                                            <h5><b> Answer:</b> 3 cannot see, and they are leading
+                                                her while she walks. </h5>
+                                            <h5><b> Rationale:</b> Holding hands in this manner is
+                                                most commonly done to assist you in walking without
+                                                having your eyes trained on you.
+                                            </h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="prompt pl-4 col-lg-8">
+                                        1. <span class="emph"> [No image!]</span> Does the rationale
+                                        support the answer?
+                                    </div>
+
+                                    <div class="pl-4 col-lg-8 choicebox">
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-success">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q21"
+                                                       value="yes" disabled>
+                                                Yes
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-primary">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q21"
+                                                       value="w_yes" disabled>
+                                                Weak Yes
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-warning">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q21"
+                                                       value="w_no" checked>
+                                                Weak No
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-danger">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q21"
+                                                       value="no" disabled>
+                                                No
+                                            </label>
+                                        </div>
+
+                                        <div class="pl-2">
+                                            <span class="emph-expl">Explanation:</span> The
+                                            rationale somewhat explains that 1 and 2 are holding 3's
+                                            hands to assist in walking, although the rationale ends
+                                            with some gibberish.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+
+                                    <h5><br>Now, you should refer to the image to answer the rest of
+                                        the questions.<br>&nbsp;
+                                    </h5>
+
+                                    <div class="col-lg-8">
+                                        <img class="img-thumbnail"
+                                             src="https://storage.googleapis.com/ai2-mosaic/public/rationalegen/ex2.png">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="panel">
+                                        <div class="prompt pl-2">
+                                            <h5><b> Question:</b> Why are 1 and 2 holding the hands
+                                                of 3?</h5>
+                                            <h5><b> Answer:</b> 3 cannot see, and they are leading
+                                                her while she walks. </h5>
+                                            <h5><b> Rationale:</b> Holding hands in this manner is
+                                                most commonly done to assist you in walking without
+                                                having your eyes trained on you.
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row panel">
+                                    <div class="prompt pl-4 col-lg-8">
+                                        2. <span class="emph"> [With image!]</span> Does the
+                                        rationale
+                                        support the answer?
+                                    </div>
+
+                                    <div class="pl-4 col-lg-8 choicebox">
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-success">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q22"
+                                                       value="yes" disabled>
+                                                Yes
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-primary">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q22"
+                                                       value="w_yes" disabled>
+                                                Weak Yes
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-warning">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q22"
+                                                       value="w_no" disabled>
+                                                Weak No
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-danger">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q22"
+                                                       value="no" checked>
+                                                No
+                                            </label>
+                                        </div>
+                                        <div class="pl-0">
+                                            <span class="emph-expl">Explanation:</span> The
+                                            rationale does not mention the actual justification that
+                                            "2 is blindfolded".
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel row">
+                                    <div class="prompt pl-4 col-lg-8">
+                                        3. Is the rationale grammatically correct?
+                                    </div>
+
+                                    <div class="pl-4 col-lg-8 choicebox">
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-success">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q23" value="yes" disabled>
+                                                Yes
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-danger">
+                                                <input class="form-check-input" type="radio"
+                                                       name="q23" value="no" checked>
+                                                No
+                                            </label>
+                                        </div>
+                                        <div class="pl-0">
+                                            <span class="emph-expl">Explanation:</span> The
+                                            rationale is grammatical correct for the most part, but
+                                            ends with some gibberish text. In such cases, please
+                                            select NO.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel row">
+                                    <div class="prompt pl-4 col-lg-8">
+                                        4. Does the rationale mention a person, object, location,
+                                        action etc. that is unrelated to the image?
+                                    </div>
+                                    <div class="pl-4 col-lg-8 choicebox">
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                                <input class="form-check-input" type="checkbox"
+                                                       name="q24" value="yes" disabled>
+                                                Rationale mentions something <span class="problem">completely unrelated</span>
+                                                to the image.
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                                <input class="form-check-input" type="checkbox"
+                                                       name="q24" value="w_yes" disabled>
+                                                Rationale mentions something <span class="problem2">slightly unrelated</span>
+                                                to the image (e.g. details like colors).
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                                <input class="form-check-input" type="checkbox"
+                                                       name="q24" value="w_no" checked>
+                                                Rationale mentions something <span class="problem3">somewhat unrelated</span>
+                                                to the image (e.g. [FIND]).
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                                <input class="form-check-input" type="checkbox"
+                                                       name="q24" value="no" disabled>
+                                                Rationale is on point.
+                                            </label>
+                                        </div>
+                                        <div class="pl-0">
+                                            <span class="emph-expl">Explanation:</span> The
+                                            rationale mentions "having your eyes trained on you"
+                                            which is somewhat unrelated to the image.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel row">
+                                    <div class="prompt pl-4 col-lg-8">
+                                        5. Select all nouns that are <span
+                                            class="problem">unrelated</span> to the image.
+                                    </div>
+                                    <div class="pl-4 col-lg-8 choicebox">
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                                <input class="form-check-input" type="checkbox"
+                                                       name="q25" value="yes" disabled>
+                                                hands
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                                <input class="form-check-input" type="checkbox"
+                                                       name="q25" value="w_yes" checked>
+                                                manner
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                                <input class="form-check-input" type="checkbox"
+                                                       name="q25" value="w_no" disabled>
+                                                eyes
+                                            </label>
+                                        </div>
+                                        <div class="pl-0">
+                                            <span class="emph-expl">Explanation:</span> "manner" is
+                                            unrelated to the image. People are holding "Hands" and
+                                            one person's "eyes" are blindfolded -- so they are
+                                            related to the image.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel row">
+                                    <div class="prompt pl-4 col-lg-8">
+                                        6. Select all noun phrases that are <span class="problem">unrelated</span>
+                                        to the image.
+                                    </div>
+                                    <div class="pl-4 col-lg-8 choicebox">
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                                <input class="form-check-input" type="checkbox"
+                                                       name="q26" value="yes" disabled>
+                                                -
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel row">
+                                    <div class="prompt pl-4 col-lg-8">
+                                        7. Select all verbs that are <span
+                                            class="problem">unrelated</span> to the image.
+                                    </div>
+                                    <div class="pl-4 col-lg-8 choicebox">
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                                <input class="form-check-input" type="checkbox"
+                                                       name="q27" value="yes" disabled>
+                                                assist you
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                                <input class="form-check-input" type="checkbox"
+                                                       name="q27" value="w_yes" disabled>
+                                                holding hands
+                                            </label>
+                                        </div>
+                                        <div class="pl-0">
+                                            <span class="emph-expl">Explanation:</span> Both verb
+                                            phrases are related to the image. Two people are holding
+                                            hands with a third person and assisting them.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- EXAMPLES END -->
+
+                </div>
+                <!-- ACCORDION HEADER END -->
+                <br/><br/><br/>
+                <h1 align="center">&#x265C;</h1><h3>If you are seeing this symbol for the first time, please read new instructions <span class="problem2">highlighted</span> above.</h3>
+                <br/><br/><br/>
+                <h5 class="emph" align="center">Answer the first question without looking at the image.</h5>
+                <br/><br/><br/>
+
+
+                <div class="panel">
+
+                    <div class="pl-4 col-lg-12">
+                        <h5><b> Question:</b> ${question} </h5>
+                        <h5><b> Answer:</b> ${answer} </h5>
+                        <h5><b> Rationale:</b> ${rationale} </h5>
+                    </div>
+                    <div class="questionrow">
+                        <div class="prompt pl-4 col-lg-8">
+                            1. <span class="problem"> [No image!]</span> Does the rationale support the
+                            answer?
+                        </div>
+
+                        <div class="col-lg-2 choicebox">
+                            <div class="form-check">
+                                <label class="form-check-label btn btn-sm btn-outline-success">
+                                    <input class="form-check-input" type="radio" name="c0"
+                                           value="yes">
+                                    Yes
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label btn btn-sm btn-outline-primary">
+                                    <input class="form-check-input" type="radio" name="c0"
+                                           value="w_yes">
+                                    Weak Yes
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label btn btn-sm btn-outline-warning">
+                                    <input class="form-check-input" type="radio" name="c0"
+                                           value="w_no">
+                                    Weak No
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label btn btn-sm btn-outline-danger">
+                                    <input class="form-check-input" type="radio" name="c0"
+                                           value="no">
+                                    No
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br/><br/><br/>
+                <h5 class="emph" align="center"><br>Now, you should refer to the image to answer the rest of the questions.<br>&nbsp;
+                </h5>
+                <br/><br/>
+                <div class="card">
+                    <div class="card-header" id="qimgheading">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#qimg" aria-expanded="true"
+                                    aria-controls="qimg">
+                                Show Image and Other Questions
+                            </button>
+                        </h5>
+                    </div>
+                    <div class="collapse" id="qimg">
+                        <div class="body">
+                            <div class="img-container">
+                                <!--<img class="img-fluid annotimage" src="https://s3-us-west-2.amazonaws.com/ai2-rowanz/vcr1images/movieclips_Taxi/NMKgdzm1pWs@13.jpg" style="width:1000px;height:600px;">-->
+                                <img class="img-fluid annotimage"
+                                     src="https://s3-us-west-2.amazonaws.com/ai2-rowanz/vcr1images/${img_fn}"
+                                     style="width:1000px;height:600px;">
+                                <div id="drawing" class="drawing-class"></div>
+                            </div>
+                            <div class="row">
+                                <div id="globalbutton" class="col-lg-2 text-center"
+                                     style="padding:0"></div>
+                                <div class="col-lg-10 buttonrow"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="panel">
+                            <div class="prompt pl-4 col-lg-12">
+                                <h5><b> Question:</b> ${question} </h5>
+                                <h5><b> Answer:</b> ${answer} </h5>
+                                <h5><b> Rationale:</b> ${rationale} </h5>
+                            </div>
+                        </div>
+                        <div class="panel questionrow">
+                            <div class="prompt pl-4 col-lg-8">
+                                2. <span class="emph"> [With image!]</span> Does the rationale support
+                                the
+                                answer?
+                            </div>
+
+                            <div class="col-lg-2 choicebox">
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-success">
+                                        <input class="form-check-input" type="radio" name="c1"
+                                               value="yes">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-primary">
+                                        <input class="form-check-input" type="radio" name="c1"
+                                               value="w_yes">
+                                        Weak Yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-danger">
+                                        <input class="form-check-input" type="radio" name="c1"
+                                               value="w_no">
+                                        Weak No
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-warning">
+                                        <input class="form-check-input" type="radio" name="c1"
+                                               value="no">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel quesionrow">
+                            <div class="prompt pl-4 col-lg-8">
+                                3. Is the rationale grammatically correct?
+                            </div>
+
+                            <div class="col-lg-2 choicebox">
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-success">
+                                        <input class="form-check-input" type="radio" name="c2"
+                                               value="yes">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-danger">
+                                        <input class="form-check-input" type="radio" name="c2"
+                                               value="no">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel questionrow">
+
+                            <div class="prompt pl-4 col-lg-12">
+                                4. Does the rationale mention a person, object, location, action etc.
+                                that is unrelated to the image?
+                            </div>
+
+                            <div class="pl-4 col-lg-8 choicebox">
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c3"
+                                               value="yes">
+                                        Rationale mentions something <span class="problem">completely unrelated</span>
+                                        to the image.
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c3"
+                                               value="w_yes">
+                                        Rationale mentions something <span class="problem2">slightly unrelated</span>
+                                        to the image (e.g. details like colors).
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c3"
+                                               value="w_no">
+                                        Rationale mentions something <span class="problem3">somewhat unrelated</span>
+                                        to the image (e.g. [FIND]).
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c3"
+                                               value="no">
+                                        Rationale is on point.
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel questionrow">
+
+                            <div class="prompt pl-4 col-lg-12">
+                                5. Select all nouns that are <span class="problem">unrelated</span> to
+                                the image.
+                            </div>
+
+                            <div class="col-lg-2 choicebox">
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c4"
+                                               value="${NOUN1}">
+                                        ${NOUN1}
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c4"
+                                               value="${NOUN2}">
+                                        ${NOUN2}
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c4"
+                                               value="${NOUN3}">
+                                        ${NOUN3}
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c4"
+                                               value="${NOUN4}">
+                                        ${NOUN4}
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c4"
+                                               value="${NOUN5}">
+                                        ${NOUN5}
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c4"
+                                               value="${NOUN6}">
+                                        ${NOUN6}
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c4"
+                                               value="${NOUN7}">
+                                        ${NOUN7}
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c4"
+                                               value="${NOUN8}">
+                                        ${NOUN8}
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c4"
+                                               value="${NOUN9}">
+                                        ${NOUN9}
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c4"
+                                               value="nota-n">
+                                        None of the above
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel questionrow">
+
+                            <div class="prompt pl-4 col-lg-12">
+                                6. Select all noun phrases that are <span
+                                    class="problem">unrelated</span> to the image.
+                            </div>
+
+                            <div class="col-lg-2 choicebox">
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c5"
+                                               value="${NOUNPHRASE1}">
+                                        ${NOUNPHRASE1}
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c5"
+                                               value="${NOUNPHRASE2}">
+                                        ${NOUNPHRASE2}
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c5"
+                                               value="${NOUNPHRASE3}">
+                                        ${NOUNPHRASE3}
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c5"
+                                               value="${NOUNPHRASE4}">
+                                        ${NOUNPHRASE4}
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c5"
+                                               value="${NOUNPHRASE5}">
+                                        ${NOUNPHRASE5}
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                        <input class="form-check-input" type="checkbox" name="c5"
+                                               value="nota-np">
+                                        None of the above
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel questionrow">
+
+                        <div class="prompt pl-4 col-lg-12">
+                            7. Select all VERBS that are <span class="problem">unrelated</span> to
+                            the image.
+                        </div>
+
+                        <div class="col-lg-2 choicebox">
+                            <div class="form-check">
+                                <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                    <input class="form-check-input" type="checkbox" name="c6"
+                                           value="${VERB1}">
+                                    ${VERB1}
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                    <input class="form-check-input" type="checkbox" name="c6"
+                                           value="${VERB2}">
+                                    ${VERB2}
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                    <input class="form-check-input" type="checkbox" name="c6"
+                                           value="${VERB3}">
+                                    ${VERB3}
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                    <input class="form-check-input" type="checkbox" name="c6"
+                                           value="${VERB4}">
+                                    ${VERB4}
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                    <input class="form-check-input" type="checkbox" name="c6"
+                                           value="${VERB5}">
+                                    ${VERB5}
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                    <input class="form-check-input" type="checkbox" name="c6"
+                                           value="${VERB6}">
+                                    ${VERB6}
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label btn btn-sm btn-outline-secondary">
+                                    <input class="form-check-input" type="checkbox" name="c6"
+                                           value="nota-verb">
+                                    None of the above
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <br/><br/><br/>
+                <!--end here-->
+                <div class="card">
+                    <h5 class="card-header">Optional feedback? &nbsp; &nbsp;<a
+                            data-toggle="collapse"
+                            href="#feedback"
+                            style="color:#0080ff;font-weight:normal;text-decoration: underline;">(expand/collapse)</a>
+                    </h5>
+                    <div id="feedback" class="collapse" style="margin:5px">
+                        <div class="card-body">
+                            <p>If anything about the HIT was unclear, please comment below. I'd like
+                                to
+                                make my HITs easier for future workers, so I really appreciate
+                                feedback!
+                                Note: no need to point out incorrect/missing detections here. </p>
+                            <textarea class="form-control" rows="2" name="commentbox"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div id="problems"></div>
+
+                <div class="row mt-5">
+                    <div class="col-2 offset-5">
+                        <input id="submitButton" type="submit" value="Submit">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+      integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+      crossorigin="anonymous">
+<style type="text/css">
+
+    /***********************************************
+    MOSAIC BOOSTRAP OVERWRITES
+    ***********************************************/
+    #hitinfo .card {
+        border-radius: 0;
+    }
+    #hitinfo .card:first-child {
+        border-bottom: 0;
+    }
+     #hitinfo button.btn-link {
+        color: #06486F;
+        text-decoration: none;
+     }
+    #hitinfo button.btn-link:hover {
+        text-decoration: none;
+    }
+    #hit ul.question-choice {
+        list-style-type: none;
+    }
+    #hit #mturk_form .card {
+        border: none;
+        background-color: inherit;
+    }
+    #hit .accordion .card-header {
+        background-color: #E5E5E5;
+        border: none;
+    }
+    #hit .card {
+        border: none;
+    }
+    /***********************************************
+    MOSAIC GENERAL STYLING
+    ***********************************************/
+    #hit {
+        background-color: rgba(0,0,0,.03);
+        padding-bottom: 4rem;
+    }
+     body {
+        font-family: "Open Sans", "Roboto", sans-serif;
+        font-size: .92rem;
+     }
+    textarea#feedback {
+        width: 100%;
+        border: 1px solid #ddd;
+    }
+    textarea#feedback:focus {
+        outline: none !important;
+        border-color: #85c8ea;
+    }
+    input#submitButton {
+        margin: auto;
+        display: block;
+        background-color: #2172a4;
+        color: #fff;
+        font-size: 1.125rem;
+        padding: .5rem 1rem;
+        cursor: pointer;
+        border-radius: 1rem;
+    }
+    input#submitButton:hover {
+        background-color: #06486F;
+    }
+    #event, div.question {
+        //border-bottom: solid 1px #ccc;
+    }
+    .event-container h4 {
+        font-size: 1.24rem;
+        padding: 1rem 1.5rem;
+    }
+    .event {
+        background-color: rgba(0,0,0,.03);
+        border-radius: 1rem;
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }
+    input.person {
+        margin-left: 20px;
+        border: none;
+        background-color: white;
+        text-align: left;
+    }
+    input.inline_blank {
+        border: none;
+        border-bottom: solid 1px #ccc;
+        background-color: inherit;
+        text-align: center;
+    }
+    input.inline_blank.hitbox {
+        text-align: left;
+    }
+    input.inline_blank:focus {
+        outline: none;
+    }
+    .optional span.obj-num, .optional span.indicator {
+        color: #aaa;
+    }
+    span.optional {
+        font-style: italic;
+    }
+    div.question-field-group .card-body{
+        padding: 2rem 0 0;
+    }
+    div.example div.card-body {
+        padding: 1rem 0 0;
+    }
+    div.form-check, div.form-check label, div.form-check input {
+        cursor: pointer;
+    }
+    .example {
+        padding: 2rem 0;
+        border-bottom: solid 1px #ccc;
+    }
+    div.example:last-child {
+        border-bottom: none;
+    }
+    div.question-container{
+        padding: 3rem 0;
+        border-bottom: solid 1px #ccc;
+    }
+    div.question-container:first-child{
+        padding: 0 0 5rem;
+    }
+    li {
+        margin-top: 0;
+    }
+    li.level1 {
+        margin-top: 1rem;
+    }
+    #instructions li.warning {
+        color: darkorange;
+    }
+    #instructions li.sub-warning {
+        color: black;
+    }
+    #instructions li.good {
+        color: green;
+    }
+    #instructions li.bad {
+        color: darkred;
+    }
+    #instructions span.bad {
+        color: darkred;
+    }
+    div.req-obj-container div.card-body {
+        padding: 0;
+    }
+    div.req-obj-fields-container {
+        padding-left: 0;
+    }
+    span.highlight {
+        font-weight: bold;
+        color: darkslateblue;
+    }
+    span.emphasize {
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    div.xneed div.card-body {
+        padding: 0;
+    }
+
+    .minipad {
+        padding-left: 0rem;
+    }
+    .questionrow {
+        /*border-bottom: 1px solid gray;*/
+        padding-bottom: 2px;
+        margin-bottom: 4px;
+        margin-left: 0;
+        margin-right: -5px;
+    }
+
+    .prompt {
+      font-size: 18;
+    }
+
+    .panel {
+        padding: 10px;
+        margin-bottom: 3px;
+        margin-top: 5px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+        box-shadow: 0 1px 1px rgba(0,0,0,.05);
+        font-size: 11pt;
+    }
+    .table {
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+        background-color: #e6e6e633;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+        box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    }
+    .table td, .table th {
+        padding: 0.3rem;
+    }
+
+    .body {
+        font-size:11pt;
+    }
+
+    .emph {
+        background-color: #c3e6cb;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .emph-expl {
+        background-color: #FACC2E;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .problem {
+        background-color: #F5BCA9;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .problem2 {
+        background-color: #F5F6CE;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .problem3 {
+        background-color: #D8F6CE;
+        color: #000;
+        font-weight: bold;
+    }
+    div {
+        margin-bottom: 0.5em;
+    }
+    .new {
+        background-color: yellow;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .new-latest {
+        background-color: orange;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .superemph {
+        background-color: #e6a0a5;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .deemph {
+        /*background-color: #f9f9f9;*/
+        color: #141414;
+        /*font-weight: lighter;*/
+        font-size:10pt;
+    }
+
+    .row {
+        margin-right: -5px;
+        margin-left:-5px;
+    }
+    .questionbox {
+        padding-right: 1px;
+        padding-left: 1px;
+    }
+    .choicebox{
+      padding-right: 1px;
+      padding-left: 1.5rem;
+      margin-left: 25px;
+    }
+    .answerbox {
+        padding-right: 1px;
+        padding-left: 1px;
+    }
+    .input-group-text {
+        padding: 3px;
+        font-size: 0.8rem;
+    }
+    .card-header {
+        padding: .25rem .5rem;
+    }
+    .card {
+        margin-bottom: 3px;
+    }
+    .card-body {
+        padding-top: .75rem;
+        padding-bottom: 0;
+    }
+    .list-group-item {
+        padding: .2rem .5rem;
+        background-color: #e6e6e6;
+    }
+
+    .image-toggle {
+        border-color: #000;
+        white-space: normal;
+        color: #fff;
+    }
+
+    .img-container {
+      position: relative;
+      display: inline-block;
+    }
+    .annotimage {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin-top:0;
+    }
+
+    .drawing-class {
+        height:0;
+    }
+    .segmentation {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height:100%;
+      width:100%;
+    }
+
+    .smalltxt {
+        font-size:.6rem;
+    }
+    .form-check {
+        padding-left:0;
+        font-size:0.75rem;
+    }
+    .form-check-input {
+        margin-left:0;
+        position: relative;
+    }
+
+    .btn-sm {
+        border-radius: .2rem;
+        padding: 0.1rem 0.5rem;
+        margin-bottom:0;
+    }
+
+    .container {
+        padding:0;
+    }
+    .col-xl-12 {
+        padding:0;
+    }
+
+
+
+
+</style>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"
+        integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.5/svg.min.js"
+        integrity="sha256-QvaFssiJCr71CxCZfYVWAXXGlwAqXbXerSdoW2t/Few="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/1.3.7/chroma.min.js"></script>
+<script src="https://cdn.rawgit.com/internalfx/distinct-colors/3bbd4cc2/dist/distinct-colors.min.js"></script>
+
+<script>
+const FONTSIZE=20;
+
+function flattenPoints(points) {
+    const scaledPoints = [];
+    for(let i=0; i < points.length; i++) {
+        scaledPoints.push(points[i][0]);
+        scaledPoints.push(points[i][1]);
+    }
+    return scaledPoints
+}
+
+function drawSegmentation(name, box, segm, color, width, height) {
+    const draw = SVG('drawing').viewbox(0, 0, width, height);
+    draw.addClass('segmentation');
+    for (let i=0; i < segm.length; i++) {
+        draw.polygon(flattenPoints(segm[i])).fill({color: color.brighten(2).hex(), opacity: 0.3}).stroke({opacity:0.5, width:2, color:color.darken(2).hex()});
+    }
+    draw.rect(box[2]-box[0], box[3]-box[1]).move(box[0],box[1]).fill({opacity: 0}).stroke({opacity: 0.8, width: 5, color:color.hex()});
+
+    // const group = draw.group();
+    const color2use = '#000';
+    const topY = box[1]-FONTSIZE-7 > 0 ? box[1]-FONTSIZE-7 : box[1]-3;
+
+    const mytext = draw.text(name).move(box[0]+2, topY).font({family: 'Helvetica', size: FONTSIZE, weight:500}).fill(color2use);
+    // console.log(draw);
+    // console.log(mytext);
+    // const thebox = mytext.rbox(draw);
+    const thebox = mytext.bbox();
+    draw.rect(thebox.w+4, thebox.h+4).move(thebox.x, thebox.y-2).fill({color: color.brighten(2).hex(), opacity: 0.8}).stroke({opacity:0.8, width:3, color:color.hex()}).backward();
+    return draw;
+}
+
+function det_match(text, dets) {
+    var matches = text.match(/(\d+|everyone)/gi);
+    if (matches === null) {
+        return [];
+    }
+    matches.filter(function (x) {
+        return (x === "everyone") || (Number(x) <= dets.length)
+    });
+    return matches;
+}
+
+function det_sub(text, dets) {
+    return text.replace(/(\d+|everyone)/gi, function(x) {
+        if ((x === "everyone") || (Number(x) <= dets.length)) {
+            return '';
+        } else {
+            return x;
+        }
+    });
+}
+
+function count_corefs(dets) {
+    // Make sure there are enough
+    let numCorefs = 0;
+    $('.hitbox').each(function() {
+        let text = $(this).val();
+        numCorefs += det_match(text, dets).length;
+    });
+    return numCorefs;
+}
+
+function onlyUnique(value, index, self) {
+    return self.indexOf(value) === index;
+}
+
+function ensure_long_enough() {
+    var rowStatus = {
+        0: {is_problem: false, problems: []},
+        1: {is_problem: false, problems: []},
+        2: {is_problem: false, problems: []},
+        3: {is_problem: false, problems: []},
+        4: {is_problem: false, problems: []},
+        5: {is_problem: false, problems: []},
+        6: {is_problem: false, problems: []}
+    };
+
+    var is_checked = {};
+    $('.choicebox > .form-check > > input:checked').each(function() {
+        is_checked[$(this).attr('name')] = true;
+    });
+    console.log(is_checked);
+    for(var i=0; i < 7; i++) {
+        if (!(('c' + i) in is_checked)) {
+            rowStatus[i]['is_problem'] = true;
+            rowStatus[i]['problems'].push({name: 'L' + (i + 1), unchecked: true});
+        }
+
+    }
+    return rowStatus;
+}
+
+function addAlert(msg) {
+    let myAlert = $('<div class="alert alert-danger">');
+    myAlert.append(msg);
+    $('#problems').append(myAlert);
+}
+
+function addWarning(msg) {
+    let myAlert = $('<div class="alert alert-warning">');
+    myAlert.append(msg);
+    $('#problems').append(myAlert);
+}
+
+function validate(dets) {
+    // Make sure that we have enough brackets
+    let rowStatus = ensure_long_enough();
+
+    var isgood=true;
+    $('#problems').empty();
+
+    for (let row in rowStatus) {
+        let row_int = Number(row) + 1;
+        if (rowStatus[row]['is_problem']) {
+            rowStatus[row]['problems'].forEach(function(problem) {
+                addAlert("Question " + row_int + " is currently unchecked - please pick an option.");
+                isgood = false;
+            });
+        }
+    }
+
+    return isgood;
+}
+
+$( document ).ready(function() {
+    $.getJSON('https://s3-us-west-2.amazonaws.com/ai2-rowanz/vcr1images/${metadata_fn}?sigh=' + Math.floor(Math.random() * 1000), function (data) {
+        console.log(data);
+        // Show or hide on hover
+        const palette = new DistinctColors({count: data.names.length, lightMin: 25});
+
+        for (let i = 0; i < data.names.length; i++) {
+            let bgcolor = palette[i].darker().hex();
+            let bgcolorHighlight = palette[i].brighten().hex();
+            let name_i = (i+1).toString() + " (" + data.names[i] + ")";
+            if (data.names[i] === "person") {
+              let mybutton = $('<button type="button" class="btn image-toggle active" style="background-color: ' + bgcolorHighlight + '; color: #000" data-toggle="button" aria-pressed="true">').text(name_i);
+              let draw = drawSegmentation(name_i, data.boxes[i], data.segms[i], palette[i], data.width, data.height);
+              mybutton.on('click', function () {
+                if (mybutton.attr('aria-pressed') === 'true') {
+                  mybutton.css({backgroundColor: bgcolor, color: '#fff'});
+                  draw.attr('opacity', 0);
+                } else {
+                  draw.attr('opacity', 1);
+                  mybutton.css({backgroundColor: bgcolorHighlight, color: '#000'});
+                }
+              });
+
+              mybutton.hover(function () {
+                if (mybutton.attr('aria-pressed') === 'true') {
+                  mybutton.css({backgroundColor: bgcolor, color: '#fff'});
+                } else {
+                  mybutton.css({backgroundColor: bgcolorHighlight, color: '#000'});
+                }
+              }, function () {
+                if (mybutton.attr('aria-pressed') === 'true') {
+                  mybutton.css({backgroundColor: bgcolorHighlight, color: '#000'});
+                } else {
+                  mybutton.css({backgroundColor: bgcolor, color: '#fff'});
+                }
+              });
+              $('.buttonrow').append(mybutton);
+            }
+
+        }
+        let hideall = $('<button type="button" class="btn btn-outline-dark">').text('hide all').appendTo('#globalbutton');
+        hideall.on('click', function () {
+            $('.buttonrow > button.active').click();
+        });
+
+        let showall = $('<button type="button" class="btn btn-outline-dark">').text('show all').appendTo('#globalbutton');
+        showall.on('click', function () {
+            $('.buttonrow > button:not(.active)').click();
+        });
+
+        $('#submitButton').on('click', function () {
+            return validate(data.names);
+        });
+    });
+});
+
+
+</script>
