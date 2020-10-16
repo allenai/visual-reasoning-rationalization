@@ -21,18 +21,18 @@ conda env create -f environment.yml
 conda activate rationalization
 ```
 
-## Available models and features
-
-Download by running:
+## Trrained models 
 
 `wget https://allennlp.s3-us-west-2.amazonaws.com/visual-reasoning-rationalization/models.zip`
 
-
 ## Downloading data 
 
-Download by running:
-
 `wget https://allennlp.s3-us-west-2.amazonaws.com/visual-reasoning-rationalization/data.zip`
+
+## Download features 
+
+`wget https://allennlp.s3-us-west-2.amazonaws.com/visual-reasoning-rationalization/features.zip`
+
 
 ## Example commands 
 
@@ -55,4 +55,4 @@ python scripts/run_generation.py -e ${FEATURES}_eval --model_name_or_path /model
 
 ## Templates for human evaluation
 
-HTML files can be found at `human_eval_templates`.
+HTML files can be found at `human_eval_templates`

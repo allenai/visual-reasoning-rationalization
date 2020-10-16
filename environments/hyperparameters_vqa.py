@@ -1,12 +1,12 @@
 text_only = {
-    "train_data_file": "/data/vqa_e/annotations/VQA-E_train_set.json",
-    "output_dir": "/models/vqa_e/q_a_to_r/",
+    "train_data_file": "/data/vqa/annotations/VQA-E_train_set.json",
+    "output_dir": "/models/vqa/q_a_to_r/",
     "task": "vqa",
     "model_type": "gpt2_vcr",
     "model_name_or_path": "gpt2",
     "per_gpu_train_batch_size": 32,
     "per_gpu_eval_batch_size": 32,
-    "eval_data_file": "/data/vqa_e/annotations/VQA-E_val_set.json",
+    "eval_data_file": "/data/vqa/annotations/VQA-E_val_set.json",
     "save_steps": 3000,
     "num_train_epochs": 5,
     "do_train": True,
@@ -35,7 +35,7 @@ text_only = {
 text_only_eval = {
     "model_type": "gpt2_vcr",
     "task": "vqa",
-    "eval_data_file":  "/data/vqa_e/annotations/VQA-E_val_set_random250.json",
+    "eval_data_file":  "/data/vqa/annotations/VQA-E_val_set_random250.json",
     "no_cache": True,
     "text_only": True,
     "embeddings_object_detector": False,
@@ -62,14 +62,14 @@ text_only_eval = {
 }
 
 textual_objects = {
-    "train_data_file": "/data/vqa_e/annotations/VQA-E_train_set.json",
-    "output_dir": "/models/vqa_e/text_objects_q_a_to_r/",
+    "train_data_file": "/data/vqa/annotations/VQA-E_train_set.json",
+    "output_dir": "/models/vqa/text_objects_q_a_to_r/",
     "task": "vqa",
     "model_type": "gpt2_vcr",
     "model_name_or_path": "gpt2",
     "per_gpu_train_batch_size": 32,
     "per_gpu_eval_batch_size": 32,
-    "eval_data_file": "/data/vqa_e/annotations/VQA-E_val_set.json",
+    "eval_data_file": "/data/vqa/annotations/VQA-E_val_set.json",
     "save_steps": 3000,
     "num_train_epochs": 5,
     "do_train": True,
@@ -98,7 +98,7 @@ textual_objects = {
 textual_objects_eval = {
     "model_type": "gpt2_vcr",
     "task": "vqa",
-    "eval_data_file": "/data/vqa_e/annotations/VQA-E_val_set_random250.json",
+    "eval_data_file": "/data/vqa/annotations/VQA-E_val_set_random250.json",
     "no_cache": True,
     "text_only": False,
     "embeddings_object_detector": False,
@@ -125,14 +125,14 @@ textual_objects_eval = {
 }
 
 embedding_objects = {
-    "train_data_file": "/data/vqa_e/annotations/VQA-E_train_set.json",
-    "output_dir": "/models/vqa_e/embed_objects_q_a_to_r/",
+    "train_data_file": "/data/vqa/annotations/VQA-E_train_set.json",
+    "output_dir": "/models/vqa/embed_objects_q_a_to_r/",
     "task": "vqa",
     "model_type": "gpt2_vcr",
     "model_name_or_path": "gpt2",
     "per_gpu_train_batch_size": 32,
     "per_gpu_eval_batch_size": 32,
-    "eval_data_file": "/data/vqa_e/annotations/VQA-E_val_set.json",
+    "eval_data_file": "/data/vqa/annotations/VQA-E_val_set.json",
     "save_steps": 3000,
     "num_train_epochs": 5,
     "do_train": True,
@@ -163,7 +163,7 @@ embedding_objects = {
 embedding_objects_eval = {
     "model_type": "gpt2_vcr",
     "task": "vqa",
-    "eval_data_file": "/data/vqa_e/annotations/VQA-E_val_set_random250.json",
+    "eval_data_file": "/data/vqa/annotations/VQA-E_val_set_random250.json",
     "no_cache": True,
     "text_only": False,
     "embeddings_object_detector": True,
@@ -190,14 +190,14 @@ embedding_objects_eval = {
 }
 
 textual_situation = {
-    "train_data_file": "/data/vqa_e/annotations/VQA-E_train_set_situation.json",
-    "output_dir": "/models/vqa_e/text_situation_q_a_to_r/",
+    "train_data_file": "/data/vqa/annotations/VQA-E_train_set_situation.json",
+    "output_dir": "/models/vqa/text_situation_q_a_to_r/",
     "task": "vqa",
     "model_type": "gpt2_vcr",
     "model_name_or_path": "gpt2",
     "per_gpu_train_batch_size": 32,
     "per_gpu_eval_batch_size": 32,
-    "eval_data_file": "/data/vqa_e/annotations/VQA-E_val_set_situation.json",
+    "eval_data_file": "/data/vqa/annotations/VQA-E_val_set_situation.json",
     "save_steps": 3000,
     "num_train_epochs": 5,
     "do_train": True,
@@ -226,7 +226,7 @@ textual_situation = {
 textual_situation_eval = {
     "model_type": "gpt2_vcr",
     "task": "vqa",
-    "eval_data_file": "/data/vqa_e/annotations/VQA-E_val_set_random250_situation.json",
+    "eval_data_file": "/data/vqa/annotations/VQA-E_val_set_random250_situation.json",
     "no_cache": True,
     "text_only": False,
     "embeddings_object_detector": False,
@@ -253,14 +253,14 @@ textual_situation_eval = {
 }
 
 embedding_situation = {
-    "train_data_file": "/data/vqa_e/annotations/VQA-E_train_set.json",
-    "output_dir": "/models/vqa_e/embed_situ_q_a_to_r/",
+    "train_data_file": "/data/vqa/annotations/VQA-E_train_set.json",
+    "output_dir": "/models/vqa/embed_situ_q_a_to_r/",
     "task": "vqa",
     "model_type": "gpt2_vcr",
     "model_name_or_path": "gpt2",
     "per_gpu_train_batch_size": 32,
     "per_gpu_eval_batch_size": 32,
-    "eval_data_file": "/data/vqa_e/annotations/VQA-E_val_set.json",
+    "eval_data_file": "/data/vqa/annotations/VQA-E_val_set.json",
     "save_steps": 3000,
     "num_train_epochs": 5,
     "do_train": True,
@@ -291,7 +291,7 @@ embedding_situation = {
 embedding_situation_eval = {
     "model_type": "gpt2_vcr",
     "task": "vqa",
-    "eval_data_file": "/data/vqa_e/annotations/VQA-E_val_set.json",
+    "eval_data_file": "/data/vqa/annotations/VQA-E_val_set.json",
     "no_cache": True,
     "text_only": False,
     "embeddings_object_detector": False,
@@ -318,14 +318,14 @@ embedding_situation_eval = {
 }
 
 textual_viscomet = {
-    "train_data_file": "/data/vqa_e/annotations/vqa_train_viscomet_inferences.json",
-    "output_dir": "/models/vqa_e/textual_viscomet_q_a_to_r/",
+    "train_data_file": "/data/vqa/annotations/vqa_train_viscomet_inferences.json",
+    "output_dir": "/models/vqa/textual_viscomet_q_a_to_r/",
     "task": "vqa",
     "model_type": "gpt2_vcr",
     "model_name_or_path": "gpt2",
     "per_gpu_train_batch_size": 32,
     "per_gpu_eval_batch_size": 32,
-    "eval_data_file": "/data/vqa_e/annotations/vqa_val_viscomet_inferences.json",
+    "eval_data_file": "/data/vqa/annotations/vqa_val_viscomet_inferences.json",
     "save_steps": 3000,
     "num_train_epochs": 5,
     "do_train": True,
@@ -354,7 +354,7 @@ textual_viscomet = {
 textual_viscomet_eval = {
     "model_type": "gpt2_vcr",
     "task": "vqa",
-    "eval_data_file":  "/data/vqa_e/annotations/vqa_val_viscomet_inferences_random250.json",
+    "eval_data_file":  "/data/vqa/annotations/vqa_val_viscomet_inferences_random250.json",
     "no_cache": True,
     "text_only": False,
     "embeddings_object_detector": False,
@@ -382,14 +382,14 @@ textual_viscomet_eval = {
 
 
 embeddings_viscomet = {
-    "train_data_file": "/data/vqa_e/annotations/vqa_train_viscomet_inferences.json",
-    "output_dir": "/models/vqa_e/embeddings_viscomet_q_a_to_r/",
+    "train_data_file": "/data/vqa/annotations/vqa_train_viscomet_inferences.json",
+    "output_dir": "/models/vqa/embeddings_viscomet_q_a_to_r/",
     "task": "vqa",
     "model_type": "gpt2_vcr",
     "model_name_or_path": "gpt2",
     "per_gpu_train_batch_size": 32,
     "per_gpu_eval_batch_size": 32,
-    "eval_data_file": "/data/vqa_e/annotations/vqa_val_viscomet_inferences.json",
+    "eval_data_file": "/data/vqa/annotations/vqa_val_viscomet_inferences.json",
     "save_steps": 3000,
     "num_train_epochs": 5,
     "do_train": True,
@@ -418,7 +418,7 @@ embeddings_viscomet = {
 embeddings_viscomet_eval = {
     "model_type": "gpt2_vcr",
     "task": "vqa",
-    "eval_data_file": "/data/vqa_e/annotations/vqa_val_viscomet_inferences_random250.json",
+    "eval_data_file": "/data/vqa/annotations/vqa_val_viscomet_inferences_random250.json",
     "no_cache": True,
     "text_only": False,
     "embeddings_object_detector": False,
