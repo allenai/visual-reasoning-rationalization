@@ -10,7 +10,7 @@ Code associated with the "Natural Language Rationales with Full-Stack Visual Rea
     author = "Marasovi\'{c}, Ana and Bhagavatula, Chandra and Park, Jae Sung and Le Bras, Ronan and Smith, Noah A. and Choi, Yejin",
     booktitle = "Findings of EMNLP",
     year = "2020",
-    url = "TBD"
+    url = "https://arxiv.org/abs/2010.07526"
 }
 ```
 
@@ -21,7 +21,7 @@ conda env create -f environment.yml
 conda activate rationalization
 ```
 
-## Trrained models 
+## Trained models 
 
 `wget https://visual-reasoning-rationalization.s3-us-west-2.amazonaws.com/models.zip`
 
