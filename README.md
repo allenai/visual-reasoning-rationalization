@@ -23,15 +23,15 @@ conda activate rationalization
 
 ## Trrained models 
 
-`wget https://allennlp.s3-us-west-2.amazonaws.com/visual-reasoning-rationalization/models.zip`
+`wget https://visual-reasoning-rationalization.s3-us-west-2.amazonaws.com/models.zip`
 
 ## Downloading data 
 
-`wget https://allennlp.s3-us-west-2.amazonaws.com/visual-reasoning-rationalization/data.zip`
+`wget https://visual-reasoning-rationalization.s3-us-west-2.amazonaws.com/data.zip`
 
 ## Download features 
 
-`wget https://allennlp.s3-us-west-2.amazonaws.com/visual-reasoning-rationalization/features.zip`
+`wget https://visual-reasoning-rationalization.s3-us-west-2.amazonaws.com/features.zip`
 
 
 ## Example commands 
