@@ -23,16 +23,20 @@ conda activate rationalization
 
 ## Trained models 
 
-`wget https://visual-reasoning-rationalization.s3-us-west-2.amazonaws.com/models.zip`
+https://visual-reasoning-rationalization.s3-us-west-2.amazonaws.com/models_vqa.zip
+
+https://visual-reasoning-rationalization.s3-us-west-2.amazonaws.com/models_vcr.zip
+
+https://visual-reasoning-rationalization.s3-us-west-2.amazonaws.com/models_e_snli_ve.zip
+
 
 ## Downloading data 
 
-`wget https://visual-reasoning-rationalization.s3-us-west-2.amazonaws.com/data.zip`
+https://visual-reasoning-rationalization.s3-us-west-2.amazonaws.com/data.zip
 
 ## Download features 
 
-`wget https://visual-reasoning-rationalization.s3-us-west-2.amazonaws.com/features.zip`
-
+https://visual-reasoning-rationalization.s3-us-west-2.amazonaws.com/features.zip
 
 ## Example commands 
 
