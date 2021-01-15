@@ -29,6 +29,7 @@ https://visual-reasoning-rationalization.s3-us-west-2.amazonaws.com/models_vcr.z
 
 https://visual-reasoning-rationalization.s3-us-west-2.amazonaws.com/models_e_snli_ve.zip
 
+Extract in an empty directory named `models` using `tar -xzvf`. 
 
 ## Downloading data 
 
